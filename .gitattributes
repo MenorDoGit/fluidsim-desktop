@@ -1,0 +1,11 @@
+# Configuration for git attributes
+*.bat text eol=crlf
+*.ts linguist-detectable
+*.yaml linguist-detectable=false
+*.htm linguist-vendored
+app/**/*.tsx linguist-detectable
+* text=auto
+
+public/*.html linguist-vendored
+yarn.lock linguist-generated
+# eof 83d97eb4
